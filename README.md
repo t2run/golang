@@ -41,3 +41,24 @@ os.Getenv(TargetItemQueue)
 
 
 
+
+##### Append to array 
+
+		var storeList []Stores
+
+		for _, store := range anotherStore {
+
+			storeList = append(storeList, InsideStores{
+			})
+
+		}
+
+
+
+
+
+
+
+
+
+
