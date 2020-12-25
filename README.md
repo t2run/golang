@@ -14,4 +14,30 @@ strconv.FormatInt(8 , 10)
 
 ```
 
+##### Int to String, 
+
+```Go
+
+strconv.Itoa(count)
+
+```
+
+##### String to Int, 
+
+```Go
+
+strconv.Atoi(os.Getenv(RetryCount))
+
+```
+
+
+
+##### Get Env variable
+```Go
+
+os.Getenv(TargetItemQueue)
+
+```
+
+
 
