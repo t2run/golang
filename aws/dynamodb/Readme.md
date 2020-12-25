@@ -46,5 +46,17 @@
 	}
  ```
  
+  #### Get Item
+  
+   ``` Go
+  	var keys map[string]*dynamodb.AttributeValue
+	keys = make(map[string]*dynamodb.AttributeValue)
+	itemKeyValue := dynamodb.AttributeValue{S: aws.String(storeID)}
+	keys[""] = &itemKeyValue
+
+	getItemInput := dynamodb.GetItemInput{TableName: aws.String(tableName), Key: keys}
+	response, errFromLookup := dynaClient.GetItem(&getItemInput)
+  
+   ```
   
   
