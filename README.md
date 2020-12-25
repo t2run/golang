@@ -4,16 +4,14 @@ Golang
 
 
 
-####String Manipualtion
+#### String Manipualtion
 
+##### FormatInt returns the string representation of i in the given base, 
 ```Go
-function test() {
-  console.log("notice the blank line before this function?");
-}
+
+//FormatInt returns the string representation of i in the given base, 
+strconv.FormatInt(8 , 10)
+
 ```
 
 
-```
-function test() {
-  console.log("notice the blank line before this function?");
-}
