@@ -26,7 +26,7 @@ strconv.Itoa(count)
 
 ```Go
 
-strconv.Atoi(os.Getenv(RetryCount))
+strconv.Atoi(intvalue)
 
 ```
 
@@ -35,7 +35,7 @@ strconv.Atoi(os.Getenv(RetryCount))
 ##### Get Env variable
 ```Go
 
-os.Getenv(TargetItemQueue)
+os.Getenv("Envvalue")
 
 ```
 
