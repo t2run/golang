@@ -31,6 +31,14 @@ strconv.Atoi(intvalue)
 ```
 
 
+### String to int 64
+
+```Go
+var s string = "9223372036854775807"
+i, _ := strconv.ParseInt(s, 10, 64)
+fmt.Printf("val: %v ; type: %[1]T\n", i)
+
+```
 
 ##### Get Env variable
 ```Go
