@@ -22,6 +22,14 @@ strconv.Itoa(count)
 
 ```
 
+##### Int64 to String, 
+
+```Go
+
+strconv.FormatInt(value, 10)
+
+```
+
 ##### String to Int, 
 
 ```Go
